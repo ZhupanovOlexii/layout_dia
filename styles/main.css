@@ -13,7 +13,7 @@ h1 {
   background-color: #008aff;
   border-bottom-left-radius: 100px;
   position: relative;
-  padding: 52px calc(50% - 520px); }
+  padding: 52px calc(50% - 520px) 0; }
   .header__nav {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -49,13 +49,13 @@ h1 {
     color: #fff;
     background: #ff9c8e;
     border-radius: 64px;
+    cursor: pointer;
+    outline: none;
     -webkit-transition: color 0.5s , background-color 0.5s;
     transition: color 0.5s , background-color 0.5s; }
     .header__button:hover {
       color: #ff9c8e;
       background-color: #fff; }
-  .header__slider {
-    position: relative; }
 
 .nav {
   color: #fff;
@@ -156,14 +156,64 @@ ul,
 button,
 input,
 textarea,
+section,
 p,
-h1,
-h2,
-h3 {
+h1 {
   border-width: 0;
   margin: auto;
   padding: 0;
   line-height: inherit; }
+
+.section__heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 52px;
+  line-height: 78px;
+  text-align: center; }
+
+.info {
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-template-columns: 754px;
+  padding: 148px calc(50% - 500px); }
+  .info__heading {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 150%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start; }
+  .info__text {
+    font-family: "Open Sans", sans-serif;
+    color: #6c788b; }
+
+.expertise {
+  display: grid;
+  grid-gap: 177px;
+  grid-template-columns: repeat(3, 264px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 134px 0; }
+
+.container {
+  text-align: center; }
+  .container__photo {
+    width: 184px;
+    height: 166px;
+    border-radius: 20%; }
+  .container__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%; }
+  .container__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6c788b; }
 
 body {
   background: #eee; }
