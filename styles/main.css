@@ -219,24 +219,25 @@ h1 {
 .expertise__section {
   background-color: #fff;
   padding: 128px 0; }
-  .expertise__section .container {
+  .expertise__section .box {
     text-align: center;
     margin-top: 64px; }
     @media screen and (max-width: 1023px) {
-      .expertise__section .container {
+      .expertise__section .box {
         max-width: 400px;
         margin: 0 auto; } }
-    .expertise__section .container__photo {
+    .expertise__section .box__photo {
       width: 184px;
       height: 166px;
       border-radius: 20%; }
-    .expertise__section .container__name {
+    .expertise__section .box__name {
       font-family: "Poppins", sans-serif;
       font-weight: 600;
       font-size: 20px;
       line-height: 140%;
-      margin: 0; }
-    .expertise__section .container__text {
+      margin-top: 40px;
+      margin-bottom: 16px; }
+    .expertise__section .box__text {
       font-family: "Open Sans", sans-serif;
       font-size: 14px;
       line-height: 150%;
@@ -367,12 +368,12 @@ h1 {
             box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
     border-radius: 24px; }
   .container__number {
+    display: inline-block;
     width: 46px;
     height: 24px;
     text-align: center;
     margin-top: 34px;
-    border-radius: 23px;
-    color: #000; }
+    border-radius: 23px; }
   .container__text {
     font-family: "Open Sans", sans-serif;
     width: 200px;
@@ -402,13 +403,17 @@ h1 {
     top: 10px;
     left: 10px; }
   .container__number-first, .container__icon-first {
-    background-color: #56ccf2; }
+    background-color: #56ccf2;
+    color: #5f5fc8; }
   .container__number-second, .container__icon-second {
-    background-color: #fcc91d; }
+    background-color: #fcc91d;
+    color: #9c9e25; }
   .container__number-third, .container__icon-third {
-    background-color: #f36363; }
+    background-color: #f36363;
+    color: #b43a3a; }
   .container__number-forth, .container__icon-forth {
-    background-color: #15d850; }
+    background-color: #15d850;
+    color: #178f27; }
 
 body {
   background: #eee; }
