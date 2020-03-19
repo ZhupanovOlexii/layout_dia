@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -25,12 +26,21 @@ h1 {
     position: absolute;
     top: 52px;
     margin-right: 78px; }
+    @media screen and (max-width: 1023px) {
+      .header__logo {
+        margin-left: 70px; } }
   .header__info {
     font-family: "Open Sans", sans-serif;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin-top: 168px;
-    color: #fff; }
+    color: #fff;
+    position: relative; }
+    @media screen and (max-width: 1023px) {
+      .header__info {
+        z-index: 2;
+        text-align: center;
+        color: black; } }
   .header__tittle {
     font-weight: 600;
     font-size: 64px;
@@ -40,6 +50,10 @@ h1 {
     font-size: 17px;
     line-height: 150%;
     margin-top: 32px; }
+    @media screen and (max-width: 1023px) {
+      .header__text {
+        font-size: 22px;
+        font-weight: 600; } }
   .header__button {
     width: 226px;
     height: 50px;
@@ -114,6 +128,9 @@ h1 {
   width: 680px;
   height: 680px;
   border-radius: 200px 0 0; }
+  @media screen and (max-width: 1023px) {
+    .slider {
+      background-size: cover; } }
   .slider__info {
     font-family: "Open Sans", sans-serif;
     position: absolute;
@@ -299,8 +316,8 @@ h1 {
     z-index: 1; }
   .person__decor_right {
     position: absolute;
-    top: 50%;
-    right: 10%;
+    top: 45%;
+    right: 15%;
     width: 139px;
     height: 56px;
     border-radius: 30px;
@@ -320,6 +337,15 @@ h1 {
     line-height: 150%;
     color: #6c788b;
     max-width: 250px; }
+    .person__text::before {
+      content: "“";
+      position: absolute;
+      font-size: 48px;
+      color: #31b9e2;
+      top: 60%;
+      right: 50%;
+      width: 20px;
+      height: 18px; }
   .person__position {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
