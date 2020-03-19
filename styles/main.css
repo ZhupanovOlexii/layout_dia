@@ -288,6 +288,7 @@ h1 {
 .person {
   text-align: center;
   margin-top: 85px;
+  margin-bottom: 168px;
   background-color: #fff;
   -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
           box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
@@ -296,6 +297,9 @@ h1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative; }
+  .person:hover {
+    -webkit-box-shadow: 0 10px 37px 14px #7e90f7;
+            box-shadow: 0 10px 37px 14px #7e90f7; }
   .person__photo {
     position: relative;
     margin-bottom: 111px;
@@ -316,7 +320,7 @@ h1 {
     z-index: 1; }
   .person__decor_right {
     position: absolute;
-    top: 45%;
+    top: 50%;
     right: 15%;
     width: 139px;
     height: 56px;
@@ -342,7 +346,7 @@ h1 {
       position: absolute;
       font-size: 48px;
       color: #31b9e2;
-      top: 55%;
+      top: 65%;
       right: 50%;
       width: 20px;
       height: 18px; }
@@ -478,7 +482,7 @@ h1 {
     padding-right: 0; }
   .approach__container {
     display: grid;
-    grid-template-columns: 372px;
+    grid-template-columns: 402px;
     grid-gap: 50px;
     background-color: #ff9c8e;
     z-index: 1;
@@ -513,7 +517,7 @@ h1 {
             justify-content: center;
     font-size: 15px;
     line-height: 150%;
-    margin-left: 90px; }
+    margin-left: 100px; }
   .approach__icon {
     width: 64px;
     height: 64px;
@@ -536,12 +540,57 @@ h1 {
     @media screen and (max-width: 1023px) {
       .approach__photo {
         display: none; } }
-    @media screen and (max-width: 1300px) {
+    @media screen and (max-width: 1400px) {
       .approach__photo {
         width: 580px; } }
-    @media screen and (max-width: 1177px) {
+    @media screen and (max-width: 1300px) {
       .approach__photo {
         width: 440px; } }
+    @media screen and (max-width: 1300px) {
+      .approach__photo {
+        width: 340px; } }
+
+.apply {
+  background-color: #fff;
+  padding: 150px 82px;
+  background-image: url(/images/background/shapes.svg);
+  background-repeat: no-repeat; }
+  .apply__section {
+    background-color: #fff; }
+  .apply__container {
+    display: grid;
+    grid-template-columns: 754px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    @media screen and (max-width: 1023px) {
+      .apply__container {
+        grid-template-columns: 300px; } }
+  .apply__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    line-height: 150%;
+    color: #253757; }
+  .apply__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    line-height: 150%;
+    color: #6c788b; }
+  .apply__link {
+    width: 226px;
+    height: 56px;
+    line-height: 56px;
+    background-color: #ff9c8e;
+    border-radius: 64px;
+    margin: 64px auto;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s; }
+    .apply__link:hover {
+      background-color: #253757;
+      color: #ff9c8e; }
 
 body {
   background: #eee; }
