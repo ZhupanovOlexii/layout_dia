@@ -15,6 +15,9 @@ h1 {
   border-bottom-left-radius: 100px;
   position: relative;
   padding: 52px calc(50% - 520px) 0; }
+  @media screen and (max-width: 1023px) {
+    .header {
+      padding: 50px; } }
   .header__nav {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -40,20 +43,24 @@ h1 {
       .header__info {
         z-index: 2;
         text-align: center;
-        color: black; } }
+        margin-top: 50px; } }
   .header__tittle {
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 68px;
     letter-spacing: -2px; }
+    @media screen and (max-width: 1023px) {
+      .header__tittle {
+        font-size: 44px; } }
   .header__text {
     font-size: 17px;
     line-height: 150%;
     margin-top: 32px; }
     @media screen and (max-width: 1023px) {
       .header__text {
-        font-size: 22px;
-        font-weight: 600; } }
+        font-size: 15px;
+        margin-left: 0 auto; } }
   .header__button {
     width: 226px;
     height: 50px;
@@ -70,11 +77,14 @@ h1 {
     .header__button:hover {
       color: #ff9c8e;
       background-color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .header__button {
+        margin-top: 26px; } }
 
 .nav {
   color: #fff;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -130,7 +140,10 @@ h1 {
   border-radius: 200px 0 0; }
   @media screen and (max-width: 1023px) {
     .slider {
-      background-size: cover; } }
+      width: 95vw;
+      height: 400px;
+      background-repeat: no-repeat;
+      opacity: 0.8; } }
   .slider__info {
     font-family: "Open Sans", sans-serif;
     position: absolute;
@@ -163,7 +176,8 @@ h1 {
     .slider .arrow:hover {
       -webkit-transform: scale(1.2);
               transform: scale(1.2);
-      background-color: #e68989; }
+      background-color: #e68989;
+      cursor: pointer; }
   .slider__arrow-left {
     bottom: 56px;
     left: 55px; }
@@ -192,6 +206,9 @@ h1 {
     font-size: 52px;
     line-height: 78px;
     text-align: center; }
+    @media screen and (max-width: 1023px) {
+      .section__heading {
+        font-size: 32px; } }
   @media screen and (max-width: 1023px) {
     .section__top {
       text-align: center; } }
@@ -208,7 +225,7 @@ h1 {
   @media screen and (max-width: 1023px) {
     .info {
       grid-template-columns: 1fr;
-      padding: 148px 64px; } }
+      padding: 50px 64px; } }
   .info__heading {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -241,7 +258,7 @@ h1 {
     margin-top: 64px; }
     @media screen and (max-width: 1023px) {
       .expertise__section .box {
-        max-width: 400px;
+        max-width: 250px;
         margin: 0 auto; } }
     .expertise__section .box__photo {
       width: 184px;
@@ -263,7 +280,7 @@ h1 {
 .testimonials {
   position: relative;
   display: grid;
-  grid-gap: 70px;
+  grid-gap: 60px;
   grid-template-columns: repeat(3, 300px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -271,7 +288,8 @@ h1 {
   @media screen and (max-width: 1023px) {
     .testimonials {
       grid-template-columns: 1fr;
-      grid-gap: 10px; } }
+      grid-gap: 10px;
+      padding-left: 50px; } }
   .testimonials__heading {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -290,16 +308,14 @@ h1 {
   margin-top: 85px;
   margin-bottom: 168px;
   background-color: #fff;
-  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
   border-radius: 24px;
   padding: 87px 32px 32px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative; }
   .person:hover {
-    -webkit-box-shadow: 0 10px 37px 14px #7e90f7;
-            box-shadow: 0 10px 37px 14px #7e90f7; }
+    -webkit-box-shadow: 0 1px 20px 1px rgba(49, 185, 226, 0.5);
+            box-shadow: 0 1px 20px 1px rgba(49, 185, 226, 0.5); }
   .person__photo {
     position: relative;
     margin-bottom: 111px;
@@ -365,13 +381,13 @@ h1 {
 .process {
   display: grid;
   grid-template-columns: 360px 550px;
-  grid-gap: 120px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  grid-gap: 120px; }
   @media screen and (max-width: 1023px) {
     .process {
-      grid-template-columns: 300px; } }
+      grid-template-columns: 1fr; } }
+  @media screen and (max-width: 1023px) {
+    .process__header {
+      margin: 0 auto; } }
   .process__name {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -401,7 +417,14 @@ h1 {
   grid-gap: 30px; }
   @media screen and (max-width: 1023px) {
     .container {
-      grid-template-columns: 300px; } }
+      grid-template-columns: 220px 220px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      padding: 0 50px; } }
+  @media screen and (max-width: 600px) {
+    .container {
+      grid-template-columns: 280px; } }
   .container__card {
     background-color: #fff;
     position: relative;
@@ -423,6 +446,7 @@ h1 {
                 transform: translateY(0); } }
   .container__number {
     display: inline-block;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     line-height: 19px;
     width: 46px;
@@ -444,7 +468,8 @@ h1 {
     line-height: 22px;
     color: #334563;
     text-decoration: none;
-    margin-left: 88px;
+    margin-left: 60px;
+    text-align: center;
     margin-bottom: 40px; }
   .container__icon {
     position: absolute;
@@ -559,6 +584,9 @@ h1 {
   padding: 150px 82px;
   background-image: url(/images/background/shapes.svg);
   background-repeat: no-repeat; }
+  @media screen and (max-width: 1023px) {
+    .apply {
+      padding: 0 20px; } }
   .apply__section {
     background-color: #fff; }
   .apply__container {
@@ -576,12 +604,17 @@ h1 {
     font-size: 52px;
     line-height: 150%;
     color: #253757; }
+    @media screen and (max-width: 1023px) {
+      .apply__title {
+        font-size: 32px;
+        line-height: 100%; } }
   .apply__text {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
     line-height: 150%;
     color: #6c788b; }
   .apply__link {
+    font-family: "Open Sans", sans-serif;
     width: 226px;
     height: 56px;
     line-height: 56px;
