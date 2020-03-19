@@ -342,7 +342,7 @@ h1 {
       position: absolute;
       font-size: 48px;
       color: #31b9e2;
-      top: 60%;
+      top: 55%;
       right: 50%;
       width: 20px;
       height: 18px; }
@@ -404,7 +404,8 @@ h1 {
     height: 264px;
     -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
             box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-    border-radius: 24px; }
+    border-radius: 24px;
+    z-index: 2; }
     .container__card:nth-child(odd) {
       -webkit-transform: translateY(50%);
               transform: translateY(50%); }
@@ -468,6 +469,79 @@ h1 {
   .container__number-forth, .container__icon-forth {
     background-color: #15d850;
     color: #178f27; }
+
+.approach {
+  position: relative;
+  padding: 0; }
+  .approach__section {
+    padding-left: 121px;
+    padding-right: 0; }
+  .approach__container {
+    display: grid;
+    grid-template-columns: 372px;
+    grid-gap: 50px;
+    background-color: #ff9c8e;
+    z-index: 1;
+    padding-top: 204px;
+    padding-bottom: 204px;
+    padding-left: 104px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .approach__container {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 50px; } }
+  .approach__name {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 3px; }
+  .approach__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    line-height: 150%; }
+  .approach__item {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 15px;
+    line-height: 150%;
+    margin-left: 90px; }
+  .approach__icon {
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: -100px;
+    top: 10px; }
+  .approach__img {
+    position: absolute;
+    top: calc(50% - 12px);
+    right: calc(50% - 10px); }
+  .approach__photo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url(/images/approach/approach-photo.png);
+    width: 687px;
+    height: 680px; }
+    @media screen and (max-width: 1023px) {
+      .approach__photo {
+        display: none; } }
+    @media screen and (max-width: 1300px) {
+      .approach__photo {
+        width: 580px; } }
+    @media screen and (max-width: 1177px) {
+      .approach__photo {
+        width: 440px; } }
 
 body {
   background: #eee; }
