@@ -564,7 +564,8 @@ h1 {
     bottom: 0;
     right: 0;
     width: 687px;
-    height: 680px; }
+    height: 680px;
+    z-index: 3; }
     @media screen and (max-width: 1023px) {
       .approach__photo {
         display: none; } }
