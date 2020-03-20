@@ -612,7 +612,7 @@ h1 {
 .apply {
   background-color: #fff;
   padding: 150px 82px;
-  background-image: url(../images/background/shapes.svg);
+  background-image: url(images/background/shapes.svg);
   background-repeat: no-repeat;
   background-size: 100%; }
   @media screen and (max-width: 1050px) {
