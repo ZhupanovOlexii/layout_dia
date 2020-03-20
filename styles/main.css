@@ -507,7 +507,7 @@ h1 {
   position: relative;
   padding: 0; }
   .approach__section {
-    padding-left: 120px;
+    padding-left: 30px;
     padding-right: 0; }
     @media screen and (max-width: 1023px) {
       .approach__section {
@@ -578,6 +578,7 @@ h1 {
   background-color: #fff;
   padding: 150px 82px;
   background-image: url(../images/background/shapes.svg);
+  background-repeat: no-repeat;
   background-size: 100%; }
   @media screen and (max-width: 1023px) {
     .apply {
@@ -623,11 +624,19 @@ h1 {
       color: #ff9c8e; }
 
 .footer {
-  padding: 180px calc(50% - 520px);
+  padding: 180px calc(50% - 520px) 85px;
   background-color: #008aff;
   border-top-right-radius: 100px; }
   .footer__section {
     background-color: #fff; }
+  .footer__logo {
+    position: relative; }
+  .footer__img {
+    position: absolute;
+    top: 190px; }
+  .footer__nav {
+    margin-top: 190px;
+    margin-left: 70px; }
   .footer__container {
     display: grid;
     grid-template-columns: 460px 360px;
