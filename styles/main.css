@@ -292,8 +292,9 @@ h1 {
   display: grid;
   grid-gap: 70px;
   grid-template-columns: repeat(3, 300px);
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20px; }
   .testimonials__top {
     padding: 0 30px; }
@@ -611,7 +612,7 @@ h1 {
 .apply {
   background-color: #fff;
   padding: 150px 82px;
-  background-image: url(../images/background/shapes.svg);
+  background-image: url(images/background/shapes.svg);
   background-repeat: no-repeat;
   background-size: 100%; }
   @media screen and (max-width: 1050px) {
