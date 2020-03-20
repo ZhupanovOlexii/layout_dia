@@ -179,6 +179,10 @@ h1 {
               transform: scale(1.2);
       background-color: #e68989;
       cursor: pointer; }
+    .slider .arrow-img {
+      position: absolute;
+      top: 11px;
+      left: 13px; }
   .slider__arrow-left {
     bottom: 56px;
     left: 55px; }
