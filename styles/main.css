@@ -507,14 +507,15 @@ h1 {
   position: relative;
   padding: 0; }
   .approach__section {
-    padding-left: 30px;
-    padding-right: 0; }
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 1130px; }
     @media screen and (max-width: 1023px) {
       .approach__section {
         padding-left: 0; } }
   .approach__container {
     display: grid;
-    grid-template-columns: 350px;
+    grid-template-columns: 340px;
     grid-gap: 50px;
     background-color: #ff9c8e;
     -webkit-box-sizing: border-box;
@@ -522,7 +523,7 @@ h1 {
     z-index: 1;
     padding-top: 204px;
     padding-bottom: 204px;
-    padding-left: 50px;
+    padding-left: 20px;
     border-bottom-left-radius: 200px;
     border-top-left-radius: 200px;
     color: #fff; }
@@ -551,14 +552,14 @@ h1 {
             justify-content: center;
     font-size: 15px;
     line-height: 150%;
-    margin-left: 100px; }
+    margin-left: 60px; }
   .approach__icon {
-    width: 64px;
-    height: 64px;
+    width: 63px;
+    height: 63px;
     background-color: #fff;
     border-radius: 50%;
     position: absolute;
-    left: -100px;
+    left: -70px;
     top: 10px; }
   .approach__img {
     position: absolute;
@@ -582,7 +583,8 @@ h1 {
   background-size: 100%; }
   @media screen and (max-width: 1023px) {
     .apply {
-      padding: 0 20px; } }
+      padding: 0 20px;
+      background-size: cover; } }
   .apply__section {
     padding-bottom: 50px;
     background-color: #fff; }
