@@ -32,11 +32,11 @@ h1 {
     top: 55px;
     margin-right: 78px;
     z-index: 2; }
-    @media screen and (max-width: 1050px) {
-      .header__logo {
-        margin-left: 15px; } }
   .header__img {
-    padding-left: 20px; }
+    padding-left: 25px; }
+    @media screen and (max-width: 1050px) {
+      .header__img {
+        padding-left: 0; } }
   .header__info {
     font-family: "Open Sans", sans-serif;
     -webkit-box-sizing: border-box;
@@ -207,7 +207,7 @@ h1 {
     display: block;
     position: absolute;
     top: 45px;
-    right: 30px;
+    right: 0;
     width: 30px;
     height: 30px;
     cursor: pointer;
