@@ -295,7 +295,8 @@ h1 {
     padding-top: 100px; }
     @media screen and (max-width: 1050px) {
       .section__heading {
-        font-size: 32px; } }
+        font-size: 32px;
+        padding-top: 0; } }
   @media screen and (max-width: 1050px) {
     .section__top {
       text-align: center; } }
@@ -339,7 +340,8 @@ h1 {
   @media screen and (max-width: 1050px) {
     .expertise {
       grid-template-columns: 1fr;
-      grid-gap: 50px; } }
+      grid-gap: 50px;
+      padding-top: 50px; } }
 
 .expertise__section {
   background-color: #fff; }
