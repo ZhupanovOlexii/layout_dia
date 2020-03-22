@@ -229,6 +229,7 @@ h1 {
   .slider__info {
     font-family: "Open Sans", sans-serif;
     position: absolute;
+    padding-right: 20px;
     bottom: 48px;
     left: 144px; }
   .slider__info-tittle {
