@@ -49,7 +49,7 @@ h1 {
       .header__info {
         position: absolute;
         top: 20px;
-        left: calc(50% - 130px);
+        left: calc(50% - 135px);
         margin-top: 100px; } }
   .header__tittle {
     font-family: "Open Sans", sans-serif;
@@ -202,7 +202,7 @@ h1 {
     display: flex;
     visibility: visible;
     position: relative;
-    top: 30px; }
+    top: 32px; }
   .nav .menu__btn {
     display: block;
     position: absolute;
@@ -381,7 +381,8 @@ h1 {
           justify-content: center;
   padding: 20px; }
   .testimonials__top {
-    padding-top: 100px; }
+    padding-top: 100px;
+    padding-left: 20px; }
   @media screen and (max-width: 1050px) {
     .testimonials {
       grid-template-columns: 1fr;
@@ -689,7 +690,7 @@ h1 {
     border-radius: 50%;
     position: absolute;
     left: -70px;
-    top: 10px; }
+    top: calc(50% - 30px); }
   .approach__img {
     position: absolute;
     top: calc(50% - 12px);
@@ -770,7 +771,11 @@ h1 {
         margin-left: 50px; } }
   .footer__img {
     position: absolute;
-    top: 190px; }
+    top: 190px;
+    padding-left: 20px; }
+    @media screen and (max-width: 1050px) {
+      .footer__img {
+        display: none; } }
   .footer__nav {
     margin-top: 190px;
     margin-left: 70px; }
