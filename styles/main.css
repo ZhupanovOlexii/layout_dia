@@ -291,8 +291,7 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-size: 52px;
     line-height: 78px;
-    text-align: center;
-    padding-top: 100px; }
+    text-align: center; }
     @media screen and (max-width: 1050px) {
       .section__heading {
         font-size: 32px;
@@ -331,7 +330,7 @@ h1 {
   display: grid;
   grid-gap: 90px;
   grid-template-columns: repeat(3, 257px);
-  padding: 128px 40px;
+  padding: 0 40px 100px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
