@@ -15,7 +15,7 @@ h1 {
   border-bottom-left-radius: 100px;
   position: relative;
   padding: 52px calc(50% - 520px) 0; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .header {
       padding: 20px;
       border-bottom-left-radius: 0; } }
@@ -34,7 +34,7 @@ h1 {
     z-index: 2; }
   .header__img {
     padding-left: 25px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .header__img {
         padding-left: 0; } }
   .header__info {
@@ -45,7 +45,7 @@ h1 {
     color: #fff;
     padding-left: 20px;
     padding-right: 20px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .header__info {
         position: absolute;
         top: 20px;
@@ -57,14 +57,14 @@ h1 {
     font-size: 64px;
     line-height: 68px;
     letter-spacing: -2px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .header__tittle {
         font-size: 44px; } }
   .header__text {
     font-size: 17px;
     line-height: 150%;
     margin-top: 32px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .header__text {
         font-size: 15px; } }
   .header__button {
@@ -83,7 +83,7 @@ h1 {
     .header__button:hover {
       color: #ff9c8e;
       background-color: #fff; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .header__button {
         margin-top: 26px; } }
 
@@ -137,7 +137,7 @@ h1 {
   position: absolute;
   top: -100%; }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1070px) {
   .nav__list {
     visibility: hidden;
     display: -webkit-box;
@@ -221,7 +221,7 @@ h1 {
   width: 680px;
   height: 680px;
   border-radius: 200px 0 0; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .slider {
       width: 90%;
       height: 400px;
@@ -288,18 +288,6 @@ h1 {
 
 .section {
   padding: 50px calc(50% - 520px) 0; }
-  .section__heading {
-    font-family: "Poppins", sans-serif;
-    font-size: 52px;
-    line-height: 78px;
-    text-align: center; }
-    @media screen and (max-width: 1050px) {
-      .section__heading {
-        font-size: 32px;
-        padding-top: 0; } }
-  @media screen and (max-width: 1050px) {
-    .section__top {
-      text-align: center; } }
 
 .info {
   display: grid;
@@ -311,7 +299,7 @@ h1 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding-left: 30px; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .info {
       grid-template-columns: 1fr;
       padding: 50px 64px; } }
@@ -337,39 +325,48 @@ h1 {
           justify-content: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .expertise {
       grid-template-columns: 1fr;
       grid-gap: 50px;
       padding-top: 50px; } }
+  .expertise__section {
+    background-color: #fff; }
+  .expertise__heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 52px;
+    line-height: 78px;
+    text-align: center; }
+    @media screen and (max-width: 1070px) {
+      .expertise__heading {
+        font-size: 32px;
+        padding-top: 0; } }
 
-.expertise__section {
-  background-color: #fff; }
-  .expertise__section .box {
-    text-align: center;
-    margin-top: 64px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-    @media screen and (max-width: 1050px) {
-      .expertise__section .box {
-        max-width: 250px;
-        margin: 0 auto; } }
-    .expertise__section .box__photo {
-      width: 184px;
-      height: 166px;
-      border-radius: 20%; }
-    .expertise__section .box__name {
-      font-family: "Poppins", sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 140%;
-      margin-top: 40px;
-      margin-bottom: 16px; }
-    .expertise__section .box__text {
-      font-family: "Open Sans", sans-serif;
-      font-size: 14px;
-      line-height: 150%;
-      color: #6c788b; }
+.box {
+  text-align: center;
+  margin-top: 64px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  @media screen and (max-width: 1070px) {
+    .box {
+      max-width: 250px;
+      margin: 0 auto; } }
+  .box__photo {
+    width: 184px;
+    height: 166px;
+    border-radius: 20%; }
+  .box__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin-top: 40px;
+    margin-bottom: 16px; }
+  .box__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6c788b; }
 
 .testimonials {
   position: relative;
@@ -383,7 +380,7 @@ h1 {
   .testimonials__top {
     padding-top: 100px;
     padding-left: 20px; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .testimonials {
       grid-template-columns: 1fr;
       grid-gap: 10px; }
@@ -478,7 +475,7 @@ h1 {
     line-height: 19px;
     letter-spacing: 3px;
     color: #6c788b; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .person {
       max-width: 400px;
       margin: 50px auto; } }
@@ -491,7 +488,7 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .process {
       grid-template-columns: 280px;
       -webkit-box-pack: center;
@@ -509,7 +506,7 @@ h1 {
     text-transform: uppercase;
     color: #c0cdd7;
     margin-top: 90px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .process__name {
         margin-top: 30px; } }
   .process__title {
@@ -530,7 +527,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(2, 260px);
   grid-gap: 30px; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .container {
       grid-template-columns: auto auto;
       -webkit-box-pack: center;
@@ -560,7 +557,7 @@ h1 {
     .container__card:nth-child(odd) {
       -webkit-transform: translateY(50%);
               transform: translateY(50%); }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .container__card:nth-child(odd) {
         -webkit-transform: translateY(0);
                 transform: translateY(0); } }
@@ -630,8 +627,8 @@ h1 {
   position: relative; }
   .approach__section {
     padding: 0;
-    max-width: 1160px; }
-    @media screen and (max-width: 1050px) {
+    max-width: 1600px; }
+    @media screen and (max-width: 1070px) {
       .approach__section {
         padding-left: 0; } }
   .approach__container {
@@ -643,22 +640,23 @@ h1 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     z-index: 1;
-    padding-top: 204px;
-    padding-bottom: 204px;
-    padding-left: 40px;
+    padding: 200px;
     border-bottom-left-radius: 200px;
     border-top-left-radius: 200px;
     color: #fff; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1300px) {
+      .approach__container {
+        padding-left: 60px; } }
+    @media screen and (max-width: 1070px) {
       .approach__container {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
-        padding-left: 20px; } }
+        padding-left: 20px;
+        padding-right: 20px; } }
     @media screen and (max-width: 400px) {
       .approach__container {
-        grid-template-columns: 240px;
-        padding-left: 15px; } }
+        grid-template-columns: 240px; } }
   .approach__name {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -679,7 +677,7 @@ h1 {
     font-size: 15px;
     line-height: 150%;
     margin-left: 70px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .approach__item {
         padding-left: 20px; } }
   .approach__icon {
@@ -699,7 +697,7 @@ h1 {
     height: 680px;
     bottom: 0;
     right: 0; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .approach__photo {
         display: none; } }
 
@@ -709,7 +707,7 @@ h1 {
   background-image: url(../images/footer/shapes.svg);
   background-repeat: no-repeat;
   background-size: 100%; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .apply {
       padding: 20px;
       background-size: 100%;
@@ -725,7 +723,7 @@ h1 {
     font-size: 52px;
     line-height: 150%;
     color: #253757; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .apply__title {
         font-size: 32px;
         line-height: 100%; } }
@@ -755,7 +753,7 @@ h1 {
   padding: 180px calc(50% - 520px) 85px;
   background-color: #008aff;
   border-top-right-radius: 100px; }
-  @media screen and (max-width: 1050px) {
+  @media screen and (max-width: 1070px) {
     .footer {
       padding-top: 50px; } }
   .footer__section {
@@ -765,20 +763,20 @@ h1 {
     padding: 0 30px; }
   .footer__logo {
     position: relative; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .footer__logo {
         margin-left: 50px; } }
   .footer__img {
     position: absolute;
     top: 190px;
     padding-left: 20px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .footer__img {
         display: none; } }
   .footer__nav {
     margin-top: 190px;
     margin-left: 70px; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .footer__nav {
         display: none; } }
   .footer__container {
@@ -848,7 +846,7 @@ h1 {
     .footer__button:hover {
       color: #ff9c8e;
       background-color: #fff; }
-    @media screen and (max-width: 1050px) {
+    @media screen and (max-width: 1070px) {
       .footer__button {
         margin-top: 30px; } }
 
