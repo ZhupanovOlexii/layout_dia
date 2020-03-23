@@ -610,18 +610,26 @@ h1 {
     width: 20px;
     top: 10px;
     left: 10px; }
-  .container__number-first, .container__icon-first {
-    background-color: #56ccf2;
-    color: #5f5fc8; }
-  .container__number-second, .container__icon-second {
-    background-color: #fcc91d;
-    color: #9c9e25; }
-  .container__number-third, .container__icon-third {
-    background-color: #f36363;
-    color: #b43a3a; }
-  .container__number-forth, .container__icon-forth {
-    background-color: #15d850;
-    color: #178f27; }
+  .container__number-first {
+    color: #56ccf2;
+    background-color: rgba(86, 211, 242, 0.2); }
+  .container__icon-first {
+    background-color: #56ccf2; }
+  .container__number-second {
+    color: #fcc91d;
+    background-color: rgba(252, 201, 29, 0.2); }
+  .container__icon-second {
+    background-color: #fcc91d; }
+  .container__number-third {
+    color: #f36363;
+    background-color: rgba(243, 99, 99, 0.2); }
+  .container__icon-third {
+    background-color: #f36363; }
+  .container__number-forth {
+    color: #15d850;
+    background-color: rgba(21, 216, 80, 0.2); }
+  .container__icon-forth {
+    background-color: #15d850; }
 
 .approach {
   position: relative; }
