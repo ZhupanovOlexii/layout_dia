@@ -228,13 +228,13 @@ h1 {
       height: 400px;
       background-repeat: no-repeat;
       background-size: cover;
-      border-top-right-radius: 200px; } }
+      border-bottom-right-radius: 200px; } }
   .slider__info {
     font-family: "Open Sans", sans-serif;
     position: absolute;
-    padding-right: 20px;
+    padding-right: 55px;
     bottom: 48px;
-    left: 144px; }
+    left: 135px; }
   .slider__info-tittle {
     font-family: "Poppins", sans-serif;
     font-size: 13px;
@@ -269,10 +269,10 @@ h1 {
       left: 13px; }
   .slider__arrow-left {
     bottom: 56px;
-    left: 55px; }
+    left: 50px; }
   .slider__arrow-right {
     bottom: 56px;
-    left: 95px; }
+    left: 90px; }
 
 html,
 body,
