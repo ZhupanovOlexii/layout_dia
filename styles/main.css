@@ -139,7 +139,7 @@ h1 {
 
 @media screen and (max-width: 1070px) {
   .nav__list {
-    visibility: hidden;
+    opacity: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -147,17 +147,17 @@ h1 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: absolute;
+    position: relative;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     height: 400px;
+    top: 32px;
     font-size: 20px;
     line-height: 20px;
     list-style: none;
-    background-color: #008aff; }
+    background-color: #008aff;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s; }
   .nav__link {
     display: block;
     color: #fff;
@@ -200,9 +200,7 @@ h1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    visibility: visible;
-    position: relative;
-    top: 32px; }
+    opacity: 1; }
   .nav .menu__btn {
     display: block;
     position: absolute;
